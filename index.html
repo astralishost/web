@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstralisMC - Servidor de Minecraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6a1b9a; /* Fondo morado */
+            color: #fff;
+        }
+
+        header {
+            background-color: #6a1b9a;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* Fondo blanco */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .server-info {
+            background-color: #6a1b9a; /* Fondo morado */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .connect-button {
+            display: inline-block;
+            background-color: #6a1b9a; /* Morado */
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .connect-button:hover {
+            background-color: #4a148c; /* Morado más oscuro */
+        }
+
+        .minecraft-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .minecraft-images img {
+            width: 200px;
+            margin: 0 10px;
+            border-radius: 8px;
+        }
+
+        .staff-section {
+            background-color: #6a1b9a; /* Fondo morado */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .staff-member {
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a AstralisMC</h1>
+    </header>
+    <div class="container">
+        <div class="server-info">
+            <h2>Servidor de Minecraft</h2>
+            <p>¡Bienvenido a AstralisMC! Somos un servidor de Minecraft dedicado a proporcionar una experiencia de juego única para todos nuestros jugadores.</p>
+            <button onclick="copyToClipboard('astralismc.xyz', this)" class="connect-button">Copiar IP</button>
+            <div class="minecraft-images">
+                <img src="https://via.placeholder.com/200" alt="Construcción Minecraft 1">
+                <img src="https://via.placeholder.com/200" alt="Construcción Minecraft 2">
+                <img src="https://via.placeholder.com/200" alt="Construcción Minecraft 3">
+            </div>
+        </div>
+        <div class="staff-section">
+            <h2>Staff</h2>
+            <div class="staff-member">nosequeponer: Founder</div>
+            <div class="staff-member">zSprx: Founder</div>
+            <div class="staff-member">Pawer: Founder</div>
+            <div class="staff-member">Quimet: Founder</div>
+            <div class="staff-member">HugoCukino: Co-Founder</div>
+            <div class="staff-member">EBM_1: Owner</div>
+            <div class="staff-member">gkgk248: Owner</div>
+            <div class="staff-member">Edwar: Manager</div>
+            <div class="staff-member">Itzalexito: Manager</div>
+            <div class="staff-member">Salvacraft: Admin</div>
+            <div class="staff-member">09 Musta: Soporte</div>
+            <div class="staff-member">Dark Knight: Soporte</div>
+            <div class="staff-member">The_king: Soporte</div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 AstralisMC. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function copyToClipboard(text, button) {
+            const el = document.createElement('textarea');
+            el.value = text;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+
+            button.textContent = "IP Copiada";
+        }
+    </script>
+</body>
+</html>
