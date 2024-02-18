@@ -1,195 +1,73 @@
+<!--
+#    WEBSITE BY SUPERHORI
+#     www.superhori.com
+#
+# Author: SuperHori
+# Website: www.superhori.com
+#
+-->
+
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AstralisMC - Servidor de Minecraft</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #6a1b9a; /* Fondo morado */
-            color: #fff;
-        }
+	<title>Website.Com</title>
 
-        header {
-            background-color: #6a1b9a;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0;
-            padding: 0;
-            font-size: 36px;
-        }
-
-        nav {
-            background-color: #333;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li:last-child {
-            margin-right: 0;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff; /* Fondo blanco */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .server-info {
-            background-color: #6a1b9a; /* Fondo morado */
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        .connect-button {
-            display: inline-block;
-            background-color: #6a1b9a; /* Morado */
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-            cursor: pointer;
-        }
-
-        .connect-button:hover {
-            background-color: #4a148c; /* Morado más oscuro */
-        }
-
-        .minecraft-images {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .minecraft-images img {
-            width: 200px;
-            margin: 0 10px;
-            border-radius: 8px;
-        }
-
-        .staff-section {
-            background-color: #6a1b9a; /* Fondo morado */
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            margin-top: 0;
-        }
-
-        .staff-member {
-            margin-bottom: 10px;
-            color: #fff;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-        }
-    </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a AstralisMC</h1>
-    </header>
+	<div class="container">
+	  <div class="snow">
+		<div class="logo">
+			<img src="img/logo.png" alt="MyServer logo">
+		</div>
 
-    <nav>
-        <ul>
-            <li><a href="https://www.astralismc.xyz">Inicio</a></li>
-            <li><a href="https://www.astralismc.xyz/verificacion">Verificación</a></li>
-        </ul>
-    </nav>
 
-    <div class="container">
-        <div class="server-info">
-            <h2>Servidor de Minecraft</h2>
-            <p>¡Bienvenido a AstralisMC! Somos un servidor de Minecraft dedicado a proporcionar una experiencia de juego única para todos nuestros jugadores.</p>
-            <button onclick="copyToClipboard('astralismc.xyz', this)" class="connect-button">Copiar IP</button>
-            <div class="minecraft-images">
-                <img src="https://via.placeholder.com/200" alt="Construcción Minecraft 1">
-                <img src="https://via.placeholder.com/200" alt="Construcción Minecraft 2">
-                <img src="https://via.placeholder.com/200" alt="Construcción Minecraft 3">
-            </div>
-        </div>
-        <div class="staff-section">
-            <h2>Staff</h2>
-            <div class="staff-member">nosequeponer: Founder</div>
-            <div class="staff-member">zSprx: Founder</div>
-            <div class="staff-member">Pawer: Founder</div>
-            <div class="staff-member">Quimet: Founder</div>
-            <div class="staff-member">HugoCukino: Co-Founder</div>
-            <div class="staff-member">EBM_1: Owner</div>
-            <div class="staff-member">gkgk248: Owner</div>
-            <div class="staff-member">Edwar: Manager</div>
-            <div class="staff-member">Itzalexito: Manager</div>
-            <div class="staff-member">Salvacraft: Admin</div>
-            <div class="staff-member">09 Musta: Soporte</div>
-            <div class="staff-member">Dark Knight: Soporte</div>
-            <div class="staff-member">The_king: Soporte</div>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2024 AstralisMC. Todos los derechos reservados.</p>
-        <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+		<div class="playercount">
+			<p>Play with <span class="sip" data-ip="mc.hypixel.net" data-port="25565">
+			</span> other players on <span class="ip">Mc.Hypixel.Net</span></p>
+		</div>
+		<hr>
 
-Hay <span data-playercounter-ip="mc.astralismc.xyz">0</span> jugadores en AstralisMC
-    </footer>
+		<div class="items">
+			<a href="#" class="item forum"> <i class="fa fa-book-open fa-4x" alt="Forum icon" style="color:#ffffff"></i>
+				<div>
+					<p class="title">Forum</p>
+				</div>
+			</a>
+			
+			<a href="#" class="item store"> <i class="fa fa-shopping-cart fa-4x" alt="Store icon" style="color:#ffffff"></i>
+				<div>
+					<p class="title">Store</p>
+				</div>
+			</a>
+			
+			<a href="#" class="item forums"> <i class="fab fa-discord fa-4x" alt="Discord icon" style="color:#ffffff"></i>
+				<div>
+					<p class="title">Discord</p>
+				</div>
+			</a>
 
-    <script>
-        function copyToClipboard(text, button) {
-            const el = document.createElement('textarea');
-            el.value = text;
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
+		</div>
+		<br><br><p class="subtitle">Follow us!</p><br>
+		<div class="social">
+			<a href="#" class="item forums"> <i class="fab fa-instagram" style="color:#ffffff"></i></a>
+			<a href="#" class="item forums"> <i class="fab fa-facebook" style="color:#ffffff"></i></a>
+			<a href="#" class="item forums"> <i class="fab fa-twitter" style="color:#ffffff"></i></a>
+			<a href="#" class="item forums"> <i class="fab fa-youtube" style="color:#ffffff"></i></a>
+			<a href="#" class="item forums"> <i class="fab fa-twitch" style="color:#ffffff"></i></a>
+			<a href="#" class="item forums"> <i class="fab fa-tiktok" style="color:#ffffff"></i></a>
+		</div>
+	  </div>	
+	</div>
 
-            button.textContent = "IP Copiada";
-        }
-    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/firefly.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
