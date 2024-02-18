@@ -38,136 +38,100 @@ const config = {
     */
     userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
-        leaders: "rgba(255, 124, 124, 0.5)",
-        developers: "rgba(230, 83, 0, 0.5)",
-        helpers: "rgba(11, 175, 255, 0.5)",
-        builders: "rgba(247, 2, 176, 0.5)",
+        altoscargos: "rgba(255, 124, 124, 0.5)",
+        opstaff: "rgba(230, 83, 0, 0.5)",
+        staff: "rgba(11, 175, 255, 0.5)",
+        soporte: "rgba(247, 2, 176, 0.5)",
     },
     adminTeamPage: {
-        leaders: [
+        altoscargos: [
             {
-                inGameName: "Astronavta",
-                rank: "Owner",
+                inGameName: "itsGato1234",
+                rank: "Founder",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 3, 3, 1)"
+                rankColor: ""
             },
             {
-                inGameName: "Astronavta",
-                rank: "Owner",
+                inGameName: "super_pvp_14",
+                rank: "Founder",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 3, 3, 1)"
+                rankColor: ""
             },
             {
-                inGameName: "Astronavta",
+                inGameName: "Pawer_34YT",
+                rank: "Founder",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
+            {
+                inGameName: "Quimet14",
+                rank: "Founder",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            }
+            {
+                inGameName: "HugoCukino88",
+                rank: "Co-Founder",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
+            {
+                inGameName: "gkgk248",
+                rank: "Owner",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
+            {
+                inGameName: "EBM_1",
+                rank: "Owner",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            }
+        ],
+        opstaff: [
+            {
+                inGameName: "Edwar",
                 rank: "Manager",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             },
             {
-                inGameName: "Astronavta",
-                rank: "Moderator",
+                inGameName: "itzAlexito",
+                rank: "Manager",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
-            }
+            },
+            {
+                inGameName: "Salvacraft95",
+                rank: "Admin",
+                skinUrlOrPathToFile: "",
+                rankColor: ""
+            },
         ],
-        developers: [
+        staff: [
             {
-                inGameName: "Astronavta",
-                rank: "Developer",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Developer",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Webmaster",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Discord manager",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            }
-        ],
-        helpers: [
-            {
-                inGameName: "Astronavta",
-                rank: "Helper++",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper++",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
+                inGameName: "zSxfrii_",
                 rank: "Helper",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             }
         ],
-        builders: [
+        soporte: [
             {
-                inGameName: "Astronavta",
-                rank: "Builder++",
+                inGameName: "09_Musta",
+                rank: "Soporte",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             },
             {
-                inGameName: "Astronavta",
-                rank: "Builder++",
+                inGameName: "Luisgamer612",
+                rank: "Soporte",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             },
             {
-                inGameName: "Astronavta",
-                rank: "Builder+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder+",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder",
-                skinUrlOrPathToFile: "",
-                rankColor: ""
-            },
-            {
-                inGameName: "Astronavta",
-                rank: "Builder",
+                inGameName: "The_king1231",
+                rank: "Soporte",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             }
@@ -181,7 +145,7 @@ const config = {
     Emails are sent via https://formsubmit.co/
     */
     contactPage: {
-        email: "astronavta@example.com"
+        email: "astralisnetmc@gmail.com"
     }
 }
 
