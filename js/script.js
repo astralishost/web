@@ -106,7 +106,7 @@ const config = {
                 rank: "Admin",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
-            },
+            }
         ],
         staff: [
             {
