@@ -38,34 +38,52 @@ const config = {
     */
     userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
-        leaders: "rgba(255, 124, 124, 0.5)",
+        Propietarios: "rgba(255, 124, 124, 0.5)",
         developers: "rgba(230, 83, 0, 0.5)",
         helpers: "rgba(11, 175, 255, 0.5)",
         builders: "rgba(247, 2, 176, 0.5)",
     },
     adminTeamPage: {
-        leaders: [
+        Propietarios: [
             {
-                inGameName: "Astronavta",
-                rank: "Owner",
+                inGameName: "itsGato1234",
+                rank: "Founder",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
-                inGameName: "Astronavta",
-                rank: "Owner",
+                inGameName: "super_pvp_14",
+                rank: "Founder",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgba(255, 3, 3, 1)"
             },
             {
-                inGameName: "Astronavta",
-                rank: "Manager",
+                inGameName: "Quimet14",
+                rank: "Founder",
+                skinUrlOrPathToFile: "",
+                rankColor: "rgba(255, 3, 3, 1)"
+            },
+            {
+                inGameName: "Pawer_34YT",
+                rank: "Founder",
+                skinUrlOrPathToFile: "",
+                rankColor: "rgba(255, 3, 3, 1)"
+            },
+            {
+                inGameName: "HugoCukino88",
+                rank: "Co-Founder",
+                skinUrlOrPathToFile: "",
+                rankColor: "rgba(255, 255, 0)"
+            },
+            {
+                inGameName: "gkgk248",
+                rank: "Owner",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             },
             {
-                inGameName: "Astronavta",
-                rank: "Moderator",
+                inGameName: "EBM_1",
+                rank: "Owner",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
             }
