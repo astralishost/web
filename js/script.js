@@ -110,7 +110,7 @@ const config = {
         ],
         Moderadores: [
             {
-                inGameName: "zSxfarii_",
+                inGameName: "RetiredKnight",
                 rank: "helper",
                 skinUrlOrPathToFile: "",
                 rankColor: ""
