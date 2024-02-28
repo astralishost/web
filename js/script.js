@@ -92,27 +92,27 @@ const config = {
             {
                 inGameName: "Edwar",
                 rank: "Manager",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "https://visage.surgeplay.com/bust/512/c562f212750af0762d70591582614176a5daf6acc8e9dcaae25a242e969d46c4",
                 rankColor: ""
             },
             {
                 inGameName: "Alexito_93xd",
                 rank: "Manager",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "https://visage.surgeplay.com/bust/512/c562f212750af0762d70591582614176a5daf6acc8e9dcaae25a242e969d46c4",
                 rankColor: ""
             },
             {
                 inGameName: "Salvacraft95",
                 rank: "Admin",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "https://visage.surgeplay.com/bust/512/c562f212750af0762d70591582614176a5daf6acc8e9dcaae25a242e969d46c4",
                 rankColor: "rgba(87, 35, 100)"
             }
         ],
         Moderadores: [
             {
-                inGameName: "RetiredKnight",
+                inGameName: "RasinGamer03",
                 rank: "helper",
-                skinUrlOrPathToFile: "",
+                skinUrlOrPathToFile: "https://visage.surgeplay.com/bust/512/c562f212750af0762d70591582614176a5daf6acc8e9dcaae25a242e969d46c4",
                 rankColor: ""
             }
         ],
